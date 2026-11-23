@@ -92,7 +92,7 @@ Ikuti langkah-langkah berikut untuk menjalankan aplikasi Frontend ini secara lok
 2. Masuk ke direktori proyek:
 
    ```bash
-   cd Student-Management
+   cd bank-sampah-sakura
    ```
 
 3. Install dependencies:
