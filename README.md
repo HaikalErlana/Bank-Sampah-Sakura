@@ -13,34 +13,34 @@ Berikut merupakan tampilan website Bank Sampah Sakura yang telah dibuat mengguna
 ## Teknologi yang Digunakan
 
 - **ReactJS** – Library JavaScript untuk membangun antarmuka pengguna berbasis komponen.
-- **Vite** – Module bundler dan build tool untuk menjalankan serta mengembangkan proyek React[cite: 3].
-- **Tailwind CSS** – Framework CSS untuk mengatur styling dan tata letak responsif di berbagai ukuran layar[cite: 3].
+- **Vite** – Module bundler dan build tool untuk menjalankan serta mengembangkan proyek React.
+- **Tailwind CSS** – Framework CSS untuk mengatur styling dan tata letak responsif di berbagai ukuran layar.
 - **React Router DOM** – Library untuk mengatur navigasi dan routing halaman (`/` dan halaman `404 Not Found`).
-- **Axios** – HTTP client untuk melakukan *networking calls* ke RESTful API pada fitur pendaftaran nasabah[cite: 1, 3].
+- **Axios** – HTTP client untuk melakukan *networking calls* ke RESTful API pada fitur pendaftaran nasabah.
 - **Lucide React** – Library ikon modern untuk mendukung elemen visual antarmuka.
 
 ## Fitur didalam Website
 
 1. **Navigasi Responsif (`Navbar.jsx`)**  
-   Menampilkan logo Bank Sampah Sakura RW 05 Srengseng Sawah, tautan navigasi *smooth-scroll* ke setiap bagian halaman (*Tentang, Cara Kerja, Jenis Sampah, Jadwal & Lokasi*), tombol **Daftar Nasabah**, serta menu *hamburger* untuk tampilan *mobile*[cite: 1].
+   Menampilkan logo Bank Sampah Sakura RW 05 Srengseng Sawah, tautan navigasi *smooth-scroll* ke setiap bagian halaman (*Tentang, Cara Kerja, Jenis Sampah, Jadwal & Lokasi*), tombol **Daftar Nasabah**, serta menu *hamburger* untuk tampilan *mobile*.
 
 2. **Hero & Statistik Operasional (`Hero.jsx` & `Stats.jsx`)**  
-   Menampilkan tajuk utama *"Sampah dipilah, tabungan bertambah"*, ajakan menabung sampah bagi warga RW 05, serta ringkasan statistik jumlah nasabah terdaftar, berat sampah terkumpul, saldo tersalurkan, dan tahun beroperasi[cite: 1].
+   Menampilkan tajuk utama *"Sampah dipilah, tabungan bertambah"*, ajakan menabung sampah bagi warga RW 05, serta ringkasan statistik jumlah nasabah terdaftar, berat sampah terkumpul, saldo tersalurkan, dan tahun beroperasi.
 
 3. **Informasi Tentang Kami & Cara Kerja (`About.jsx` & `HowItWorks.jsx`)**  
-   Menjelaskan inisiatif warga RW 05 Srengseng Sawah beserta panduan 4 langkah mudah menabung sampah (*Pilah di rumah, Setor ke bank sampah, Ditimbang & dicatat, Saldo bertambah*)[cite: 1].
+   Menjelaskan inisiatif warga RW 05 Srengseng Sawah beserta panduan 4 langkah mudah menabung sampah (*Pilah di rumah, Setor ke bank sampah, Ditimbang & dicatat, Saldo bertambah*).
 
 4. **Katalog Jenis Sampah (`WasteTypes.jsx`)**  
-   Menampilkan daftar kategori sampah yang diterima (*Plastik, Kertas & Kardus, Logam & Kaleng, Kaca*) beserta estimasi harga per kilogram menggunakan `.map()`[cite: 1].
+   Menampilkan daftar kategori sampah yang diterima (*Plastik, Kertas & Kardus, Logam & Kaleng, Kaca*) beserta estimasi harga per kilogram menggunakan `.map()`.
 
 5. **Jadwal & Lokasi Penyetoran (`ScheduleLocation.jsx`)**  
-   Menampilkan informasi hari, jam operasional, lokasi pos RW 05, serta tombol integrasi langsung menuju rute peta lokasi[cite: 1].
+   Menampilkan informasi hari, jam operasional, lokasi pos RW 05, serta tombol integrasi langsung menuju rute peta lokasi.
 
 6. **Formulir Pendaftaran Nasabah (`RegistrationForm.jsx`)**  
-   Menyediakan form pendaftaran nasabah baru (Nama Lengkap sesuai KTP, Nomor WhatsApp, dan RT/Alamat Rumah) yang dikelola menggunakan `useState` dan terhubung dengan RESTful API melalui Axios beserta penanganan pesan status (*error handling*)[cite: 1, 3].
+   Menyediakan form pendaftaran nasabah baru (Nama Lengkap sesuai KTP, Nomor WhatsApp, dan RT/Alamat Rumah) yang dikelola menggunakan `useState` dan terhubung dengan RESTful API melalui Axios beserta penanganan pesan status (*error handling*).
 
 7. **Footer & Routing Halaman (`Footer.jsx` & `NotFound.jsx`)**  
-   Menampilkan informasi kontak pengurus, jadwal setor, tombol *scroll-to-top*, serta halaman fallback `404 Not Found` apabila pengguna mengakses rute URL yang tidak tersedia[cite: 1].
+   Menampilkan informasi kontak pengurus, jadwal setor, tombol *scroll-to-top*, serta halaman fallback `404 Not Found` apabila pengguna mengakses rute URL yang tidak tersedia.
 
 ## Struktur Folder
 
