@@ -1,16 +1,14 @@
 # Bank Sampah Sakura
 
-Website **Bank Sampah Sakura** merupakan implementasi antarmuka pengguna (*Frontend*) berbasis web menggunakan ReactJS untuk layanan pengelolaan bank sampah warga RW 05, Kelurahan Srengseng Sawah, Jakarta Selatan[cite: 1, 2]. Proyek ini dibuat sebagai bagian dari tugas **Frontend Development – Group Challenge – UI Pages Practice** dari Celerates berdasarkan desain Hi-Fi di Figma.
+Website **Bank Sampah Sakura** merupakan implementasi antarmuka pengguna (*Frontend*) berbasis web menggunakan ReactJS untuk layanan pengelolaan bank sampah warga RW 05, Kelurahan Srengseng Sawah, Jakarta Selatan. Proyek ini dibuat sebagai bagian dari tugas **Frontend Development – Group Challenge – UI Pages Practice** dari Celerates berdasarkan desain Hi-Fi di Figma.
 
 ## Preview Website
 
-Berikut merupakan tampilan website Bank Sampah Sakura yang telah dibuat menggunakan ReactJS dan Tailwind CSS[cite: 1, 2, 3].
+Berikut merupakan tampilan website Bank Sampah Sakura yang telah dibuat menggunakan ReactJS dan Tailwind CSS.
 
 ![Bank Sampah Sakura Preview](screenshots/landingpage_1.png)
 ![Bank Sampah Sakura Preview](screenshots/landingpage_2.png)
 ![Bank Sampah Sakura Preview](screenshots/landingpage_3.png)
-
-> **Catatan:** Simpan screenshot tampilan website dengan nama `bank-sampah-sakura.png` di dalam folder `screenshots` pada direktori utama proyek agar gambar dapat ditampilkan di GitHub.
 
 ## Teknologi yang Digunakan
 
@@ -79,6 +77,7 @@ bank-sampah-sakura/
 ├── tailwind.config.js
 ├── vite.config.js
 └── README.md
+```
 
 ## Cara Menjalankan Website
 
