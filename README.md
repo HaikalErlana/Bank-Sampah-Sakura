@@ -81,7 +81,7 @@ bank-sampah-sakura/
 
 ## Cara Menjalankan Website
 
-Pastikan Node.js dan npm sudah terpasang pada komputer.
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi Frontend ini secara lokal di komputer:
 
 1. Clone repository:
 
